@@ -1,0 +1,9 @@
+{% include '/sub/header.html' %}
+<div class="container content">
+    <div class="row">
+        <h1>{{ new.title }}</h1>
+        <small>{{ new.created_at }}</small>
+        <p style="white-space: pre-wrap;">{{ new.text }}</p>
+    </div>
+</div>
+{% include '/sub/footer.html' %}
